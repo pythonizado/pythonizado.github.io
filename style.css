@@ -1,0 +1,115 @@
+/* Reset básico para eliminar márgenes y padding predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño general de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+header p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Secciones */
+section {
+    margin: 20px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #007BFF;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+h3 {
+    color: #0056b3;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Imagenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Links de recursos */
+.links p {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.links a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Grilla para tipos de drogas */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.grid div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bloques de citas (testimonios) */
+blockquote {
+    border-left: 4px solid #007BFF;
+    padding-left: 15px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #555;
+}
+blockquote p {
+    margin-bottom: 5px;
+}
+blockquote cite {
+    font-size: 0.9em;
+    color: #007BFF;
+}
+
+/* Sección de contacto */
+.contact {
+    background: #e9ecef;
+   
